@@ -1,4 +1,4 @@
-[5:00 PM, 2/10/2019] Sindhu Veridic: pipeline {
+ pipeline {
     agent any
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
